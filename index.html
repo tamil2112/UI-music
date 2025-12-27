@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Music App UI</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <!-- Screen 1 -->
+  <div class="screen">
+    <h3>Recently Played</h3>
+
+    <div class="album-row">
+      <img src="images/artist1.jpg">
+      <img src="images/artist2.jpg">
+      <img src="images/cover.jpg">
+    </div>
+
+    <h4>You Might Like</h4>
+
+    <div class="list">
+      <div class="list-item">
+        <span>Stay</span>
+        <button>▶</button>
+      </div>
+      <div class="list-item">
+        <span>Rockstar</span>
+        <button>▶</button>
+      </div>
+      <div class="list-item active">
+        <span>Attention</span>
+        <button>⏸</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Screen 2 -->
+  <div class="screen playing">
+    <img class="cover" src="images/cover.jpg">
+    <h2>Attention</h2>
+    <p>Charlie Puth</p>
+
+    <div class="wave">
+      ▂ ▃ ▄ ▅ ▆ ▅ ▄ ▃ ▂
+    </div>
+
+    <div class="controls">
+      <button>⏮</button>
+      <button class="play">▶</button>
+      <button>⏭</button>
+    </div>
+
+    <button class="lyrics-btn">Lyrics</button>
+  </div>
+
+  <!-- Screen 3 -->
+  <div class="screen lyrics">
+    <h3>Lyrics</h3>
+
+    <p class="lyric-text">
+      You just want attention<br>
+      You don’t want my heart<br>
+      Maybe you just hate the thought of me with someone new
+    </p>
+
+    <div class="controls">
+      <button>⏮</button>
+      <button class="play">⏸</button>
+      <button>⏭</button>
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
